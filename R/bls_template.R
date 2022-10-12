@@ -25,7 +25,7 @@ blastula_template <- function(html_body,
                               html_header,
                               html_footer,
                               title,
-                              content_width = "1000px",
+                              content_width = "1700px",
                               font_family = "Helvetica, sans-serif") {
 
   result <- htmltools::renderTags(
@@ -51,7 +51,7 @@ body {
 img {
   max-width: 100%;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1767px) {
   .container {
     width: 100%;
   }

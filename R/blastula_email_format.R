@@ -46,7 +46,7 @@
 #' @param ... Specify other options in [rmarkdown::html_document()].
 #'
 #' @export
-blastula_email <- function(content_width = "1000px",
+blastula_email <- function(content_width = "1700px",
                            toc = FALSE,
                            toc_depth = 3,
                            toc_float = FALSE,

@@ -5,7 +5,7 @@
 \title{The R Markdown \code{blastula_email} output format}
 \usage{
 blastula_email(
-  content_width = "1000px",
+  content_width = "1700px",
   toc = FALSE,
   toc_depth = 3,
   toc_float = FALSE,
