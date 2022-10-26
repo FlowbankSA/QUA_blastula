@@ -41,7 +41,7 @@ article <- function(image = NULL, title = NULL, content = NULL, link = NULL) {
 
   tagList(
     if (!is.null(image)) {
-      tags$div(style = css(margin_bottom = "12px"),
+      tags$div(style = css(margin_bottom = "2px"),
         maybe_link(
           tags$img(
             src = image,

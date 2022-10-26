@@ -9,7 +9,7 @@ blastula_template(
   html_header,
   html_footer,
   title,
-  content_width = "1700px",
+  content_width = "1500px",
   font_family = "Helvetica, sans-serif"
 )
 }

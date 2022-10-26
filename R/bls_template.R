@@ -25,7 +25,7 @@ blastula_template <- function(html_body,
                               html_header,
                               html_footer,
                               title,
-                              content_width = "1700px",
+                              content_width = "1500px",
                               font_family = "Helvetica, sans-serif") {
 
   result <- htmltools::renderTags(
@@ -43,10 +43,10 @@ body {
   background-color: white;
 }
 .content .message-block {
-  margin-bottom: 24px;
+  margin-bottom: 4px;
 }
 .header .message-block, .footer message-block {
-  margin-bottom: 12px;
+  margin-bottom: 2px;
 }
 img {
   max-width: 100%;
@@ -60,7 +60,7 @@ img {
     width: 100%;
   }
   .article {
-    margin-bottom: 24px;
+    margin-bottom: 4px;
   }
 }
       ")))
@@ -73,8 +73,8 @@ img {
           margin = "0",
           padding = "0"
         ),
-        panel(outer_class = "container", outer_align = "center", padding = "24px",
-          width = "85%", max_width = htmltools::validateCssUnit(content_width),
+        panel(outer_class = "container", outer_align = "center", padding = "4px",
+          width = "100%", max_width = htmltools::validateCssUnit(content_width),
 
           if (!is.null(html_header)) {
             div(class = "header",
@@ -83,7 +83,7 @@ img {
                 color = "#999999",
                 font_size = "12px",
                 font_weight = "normal",
-                margin = "0 0 24px 0",
+                margin = "0 0 4px 0",
                 text_align = "center"
               ),
               html_header
@@ -99,7 +99,7 @@ img {
                 color = "#999999",
                 font_size = "12px",
                 font_weight = "normal",
-                margin = "24px 0 0 0",
+                margin = "4px 0 0 0",
                 text_align = "center"
               ),
               html_footer
