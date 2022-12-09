@@ -4,7 +4,7 @@ pkgdown_sha: 03f912fc18522c6e41a66c0094acc68845b0147a
 articles:
   blastula: blastula.html
   sending_using_smtp: sending_using_smtp.html
-last_built: 2022-12-09T09:18Z
+last_built: 2022-12-09T09:19Z
 urls:
   reference: https://rstudio.github.io/blastula/reference
   article: https://rstudio.github.io/blastula/articles
